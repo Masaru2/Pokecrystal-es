@@ -157,9 +157,9 @@ Options_TextSpeed:
 	dw .Mid
 	dw .Slow
 
-.Fast: db "3@"
-.Mid:  db "2@"
-.Slow: db "1@"
+.Fast: db "RÁPIDA @"
+.Mid:  db "MEDIA @"
+.Slow: db "LENTA @"
 
 GetTextSpeed:
 ; converts TEXT_DELAY_* value in a to OPT_TEXT_SPEED_* value in c,
